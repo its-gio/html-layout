@@ -1,0 +1,48 @@
+:root {}
+
+* { box-sizing: border-box; margin: 0; }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top, .center, .bottom {
+  flex: 1;
+  margin: 10px;
+}
+
+.top {
+  border: 5px solid #000;
+  position: relative;
+  max-height: 100%;
+}
+
+.top-purple {
+  width: 100px;
+  height: 75%;
+  background-color: #8a2be2;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.top-green {
+  width: 400px;
+  height: 280px;
+  background-color: #228b22;
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+}
+
+.top-blue {
+  width: 280px;
+  height: 280px;
+  background-color: #87ceeb;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 600px;
+}
