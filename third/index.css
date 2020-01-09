@@ -1,0 +1,55 @@
+* { box-sizing: border-box; margin: 0; }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layer {
+  flex: 1;
+}
+
+.one {
+  background-color: #d8d8d8;
+}
+
+.one-mini{
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  background-color: #4a90e2;
+}
+
+.two {
+  flex: 2;
+  background-color: #fff;
+  position: relative;
+}
+
+.two p {
+  color: #4e4d4b;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family: arial;
+}
+
+.three {
+  background-color: #4a90e2;
+}
+
+.four {
+  background-color: #50e3c2;
+}
+
+.five {
+  background-color: #b8e986;
+}
+
+.six {
+  background-color: #f8e71c;
+}
